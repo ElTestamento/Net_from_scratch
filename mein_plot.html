@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <div>
+        <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+        
+
+        <div id="plotly-html-element" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+
+        <script type="module">
+            const graph_div = document.getElementById("plotly-html-element");
+            await Plotly.newPlot(graph_div, {"data":[{"type":"scatter","mode":"markers","x":[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0],"y":[7.0,10.0,13.0,16.0,19.0,22.0,25.0,28.0,31.0,34.0,37.0,40.0,43.0,46.0,49.0,52.0,55.0,58.0,61.0],"marker":{}}],"layout":{"title":{"text":"Zielfunktion","font":{"family":"Arial","size":20,"color":"rgb(0, 0, 0)"},"x":0.5,"y":0.9},"legend":{},"xaxis":{"title":{"text":"Eingaben","font":{"family":"","size":0,"color":"rgb(0, 0, 0)"},"x":0.5,"y":0.9}},"yaxis":{"title":{"text":"Y Werte (3 * Input + 4)","font":{"family":"","size":0,"color":"rgb(0, 0, 0)"},"x":0.5,"y":0.9}},"zaxis":{}},"config":{}});
+        </script>
+    </div>
+</body>
+
+</html>

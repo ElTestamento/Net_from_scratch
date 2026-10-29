@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+polars = { version = "0.45", features = ["lazy"] }
+plotlars = "0.8"
+webbrowser = "1.0"
+autodiff = "0.7"
