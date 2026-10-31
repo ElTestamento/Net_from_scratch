@@ -8,3 +8,4 @@ polars = { version = "0.45", features = ["lazy"] }
 plotlars = "0.8"
 webbrowser = "1.0"
 autodiff = "0.7"
+rand = "0.10.3"
